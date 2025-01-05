@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".pin_activity">
+
+    <TextView
+        android:id="@+id/infotext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/inter"
+        android:gravity="center"
+        android:text="Добавьте PIN-код, чтобы сделать Ваш аккаунт более безопасным"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infotext">
+
+        <EditText
+            android:id="@+id/pasText2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="24dp"
+            android:background="@drawable/newtextboxbg"
+            android:maxLength="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#151522"
+            android:textColorHint="#B5B5B5"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <EditText
+            android:id="@+id/pasText3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/newtextboxbg"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#151522"
+            android:textColorHint="#B5B5B5"
+            android:textSize="30dp"
+            app:layout_constraintStart_toEndOf="@+id/pasText4"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <EditText
+            android:id="@+id/pasText4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/newtextboxbg"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:paddingLeft="10dp"
+            android:maxLength="1"
+            android:paddingRight="10dp"
+            android:textColor="#151522"
+            android:textColorHint="#B5B5B5"
+            android:textSize="30dp"
+            app:layout_constraintStart_toEndOf="@+id/pasText5"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <EditText
+            android:id="@+id/pasText5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/newtextboxbg"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#151522"
+            android:textColorHint="#B5B5B5"
+            android:textSize="30dp"
+            app:layout_constraintStart_toEndOf="@+id/pasText2"
+            tools:layout_editor_absoluteY="185dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/welcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="162dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Настройте пароль"
+        android:textColor="#151522"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addpas"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/newbgbutton"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Добавить"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/skippas"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/skipbgbtn"
+        android:fontFamily="@font/inter"
+        android:text="Пропустить"
+        android:textAllCaps="false"
+        android:textColor="#246BFD"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addpas" />
+</androidx.constraintlayout.widget.ConstraintLayout>

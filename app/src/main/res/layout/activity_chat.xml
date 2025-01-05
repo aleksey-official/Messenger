@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:id="@+id/chatlayout"
+    tools:context=".ChatActivity">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/photoprofile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/imagebg"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/nametext"
+        app:layout_constraintStart_toEndOf="@+id/backbtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_oval="true" />
+
+    <View
+        android:id="@+id/headerBackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/headersbg"
+        app:layout_constraintBottom_toTopOf="@id/supportbtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="315dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nametext" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toStartOf="@+id/audiocallBtn"
+        app:layout_constraintStart_toEndOf="@+id/photoprofile"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/audiocallBtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/audiocallicon" />
+
+    <ImageButton
+        android:id="@+id/delBtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="65dp"
+        android:backgroundTint="#00FFFFFF"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/delicon" />
+
+    <ImageButton
+        android:id="@+id/resentBtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#00FFFFFF"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/delBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/resenticon" />
+
+    <ImageButton
+        android:id="@+id/resendinchat"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#00FFFFFF"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/resentBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/resendinchaticon" />
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backicon" />
+
+    <ImageButton
+        android:id="@+id/sendBtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="-50dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/sendbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textMessage"
+        app:srcCompat="@drawable/sendicon" />
+
+    <ImageButton
+        android:id="@+id/addFile"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textMessage"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/addicon" />
+
+    <EditText
+        android:id="@+id/textMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/searchtextbg"
+        android:ems="10"
+        android:hint="Сообщение"
+        android:inputType="textCapSentences|textMultiLine"
+        android:minHeight="45dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#8E8E93"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sendBtn"
+        app:layout_constraintStart_toEndOf="@+id/addFile"
+        app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/supportbtn"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="13dp"
+            app:layout_constraintTop_toBottomOf="@+id/backbtn"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/conversionsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        app:stackFromEnd="true"
+        android:overScrollMode="never"
+        android:padding="20dp"
+        android:visibility="gone"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@+id/textMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/supportbtn" />
+
+    <TextView
+        android:id="@+id/availabilityText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:textColor="#505050"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/audiocallBtn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/photoprofile"
+        app:layout_constraintTop_toBottomOf="@+id/nametext" />
+
+    <TextView
+        android:id="@+id/resendmsgtext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/newtextboxbg"
+        android:fontFamily="@font/inter"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="3dp"
+        android:textColor="@color/black"
+        android:text="hello"
+        android:textSize="17dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/textMessage"
+        app:layout_constraintEnd_toEndOf="@+id/textMessage"
+        app:layout_constraintStart_toStartOf="@+id/textMessage" />
+
+    <ImageButton
+        android:id="@+id/delresendinchat"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/resendmsgtext"
+        app:layout_constraintTop_toTopOf="@+id/resendmsgtext"
+        app:srcCompat="@drawable/closeicon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

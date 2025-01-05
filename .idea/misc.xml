@@ -1,0 +1,145 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable-v24/callbg.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable-v24/clearicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable-v24/iconimagebg.xml" value="0.1615" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable-v24/newbgbuttonerror.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable-v24/selectbg.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/addicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/alldoneicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/audiocallicon.xml" value="0.1815" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/audiocallimage.xml" value="0.1815" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/background_chat_input.xml" value="0.182" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/background_content_top.xml" value="0.182" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/background_received_message.xml" value="0.157" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/background_received_message_dark.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/background_sent_message.xml" value="0.157" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/backicon.xml" value="0.1815" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/backspaceicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/bg_meeting.xml" value="0.1815" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/bgbutton.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/blockicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/buttonbg.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/callbtnicon.xml" value="0.1815" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/changepasicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/closeicon.xml" value="0.1815" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/delicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/dellisticon.xml" value="0.1085" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/doneicon.xml" value="0.19" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/downpanel.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/endcallicon.xml" value="0.1815" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/endcallimage.xml" value="0.1815" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/exitbtnbg.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/exutbtnbg.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/headersbg.xml" value="0.157" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/headersbgdark.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/iconbg.xml" value="0.169" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/imagebg.xml" value="0.16" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/infobg.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/layoutbg.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/newbackicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/newbgbutton.xml" value="0.2005" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/newcontacticon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/newtextboxbg.xml" value="0.2005" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/nexticon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/notifiicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/pasbg.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/paspoint.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/paspointadd.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/paydialogbg.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/phoneicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/photoicon.xml" value="0.174" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/profileicon.xml" value="0.209" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/profileicondark.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/resendinchaticon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/resenticon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/searchicon.xml" value="0.1615" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/searchicondark.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/searchtextbg.xml" value="0.1615" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/searchtextbgdark.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/sendbg.xml" value="0.157" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/sendicon.xml" value="0.157" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/skipbgbtn.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/splashscreen.xml" value="0.1" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/supporticon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/supportsendicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/taskicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/textboxBg.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/textboxbg.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/textboxbgdark.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/thumb.xml" value="0.234" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/track.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/videocallicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/videocallimage.xml" value="0.1815" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/workicon.xml" value="0.235" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/drawable/зкщашдушсщт.xml" value="0.209" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/aboutlayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/aboutuserlayout.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_chat.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_checkpas.xml" value="0.20324074074074075" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_incoming_invitation.xml" value="0.18725951261222745" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_main.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_on_boarding.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_outgoing_invitation.xml" value="0.25" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_phonereg.xml" value="0.1142857142857143" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_pin.xml" value="0.2857142857142857" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_preview_send_image.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_profilereg.xml" value="0.1761436511329628" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_registration.xml" value="0.264" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_resend.xml" value="0.21895261845386535" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_splash_screen.xml" value="0.12571428571428572" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_touchactivity.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_users.xml" value="0.18181818181818182" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/activity_watchfullvideo.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/addpasscode.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/app_bar_profile_settings.xml" value="0.2857142857142857" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/chagestatuslayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/changebirhtday.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/changenamelayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/changestatuslayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/content_profile_settings.xml" value="0.14285714285714285" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/content_profile_settings2.xml" value="0.17571611799914494" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/correctlayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/delaccdonelayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/delacclayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/delpasscode.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/fragment_home.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/header.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/intro_four.xml" value="0.18725951261222745" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/intro_one.xml" value="0.2297734627831715" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/intro_three.xml" value="0.18725951261222745" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/intro_two.xml" value="0.18725951261222745" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/item_container_received_message.xml" value="0.42857142857142855" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/item_container_recent_conversion.xml" value="0.3795620437956204" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/item_container_sent_message.xml" value="0.14455054329930853" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/item_container_user.xml" value="0.3828571428571429" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/login.xml" value="0.2" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/nav_header_profile_settings.xml" value="0.18725951261222745" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/payfragmentlayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/preview_send_image.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/profile_done.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/search_filter.xml" value="0.18404390037990714" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/sendfilelayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/supportlayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/uncorrectlayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/updatelayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/warchfullphoto.xml" value="0.18683197947840957" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/watchfullvideo.xml" value="0.2004566210045662" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/layout/worklayout.xml" value="0.1876870457460453" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/menu/activity_main_drawer.xml" value="0.10285714285714286" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/menu/activity_profile_settings_drawer.xml" value="0.18725951261222745" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/menu/profile_settings.xml" value="0.18725951261222745" />
+        <entry key="..\:/Users/pit1-/Messenger/app/src/main/res/menu/search_filter.xml" value="0.18488813845504432" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
